@@ -1,6 +1,3 @@
-[![](https://vsmarketplacebadge.apphb.com/version/bierner.comment-tagged-templates.svg)](https://marketplace.visualstudio.com/items?itemName=bierner.comment-tagged-templates)
-[![Build Status](https://travis-ci.org/mjbvz/vscode-comment-tagged-templates.svg?branch=master)](https://travis-ci.org/mjbvz/vscode-comment-tagged-templates)
-
 Adds basic syntax highlighting for JavaScript and TypeScript tagged template strings using language identifier comments:
 
 ```ts
@@ -10,7 +7,7 @@ const cssString = /* css */ `
     }
 `;
 
-const htmlString = /* html */`
+const htmlString = /* html */ `
     <button class="my-button">
         Click me!
     </button>
@@ -19,8 +16,8 @@ const htmlString = /* html */`
 
 ![](https://github.com/mjbvz/vscode-comment-tagged-templates/raw/master/docs/example.png)
 
-
 ## Usage
+
 The language identifier comment must appear before the opening backtick for the template string. Here is basic list of valid identifiers (note that some languages require that you install an VS Code extension that provides a grammar for that language):
 
 <!--BEGIN_LANG_TABLE-->
@@ -59,6 +56,7 @@ The language identifier comment must appear before the opening backtick for the 
 | json | json, sublime-settings, sublime-menu, sublime-keymap, sublime-mousemap, sublime-theme, sublime-build, sublime-project, sublime-completions |
 | less | less |
 | md | md, markdown |
+| mjml | mjml |
 | objc | objectivec, objective-c, mm, objc, obj-c, m, h |
 | scss | scss |
 | perl6 | perl6, p6, pl6, pm6, nqp |
@@ -74,14 +72,15 @@ The language identifier comment must appear before the opening backtick for the 
 | fsharp | fs, fsharp, f# |
 | dart | dart |
 | glsl | glsl |
+| liquid | liquid |
 <!--END_LANG_TABLE-->
 
 ## Advanced language support
+
 For IntelliSense and more advanced embedded language support, checkout these extensions:
 
-* [lit-html](https://marketplace.visualstudio.com/items?itemName=bierner.lit-html) — Html template intellisense
-* [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components) — CSS template Intellisense
-
+- [lit-html](https://marketplace.visualstudio.com/items?itemName=bierner.lit-html) — Html template intellisense
+- [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components) — CSS template Intellisense
 
 # Contributing
 
